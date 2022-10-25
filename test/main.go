@@ -14,12 +14,21 @@ func main(){
 	fmt.Println("my name is ", name , "and i am ", age , "years old")
 
 
-	var fName string
-	var price int 
-	fName = "Redi"
-	price = 50
+	// var fName string
+	// var price int 
+	// fName = "Redi"
+	// price = 50
 
-	fmt.Println("my father name is ", fName)
-	fmt.Println("monthly price is", price)
+	// fmt.Println("my father name is ", fName)
+	// fmt.Println("monthly price is", price)
+
+	//go receive input from the user  
+	var fName string
+	// var price int 
+
+	fmt.Println("Please input your father name")
+	fmt.Scan(&fName)
+	fmt.Println("your father name is ", fName)
+
 
 }
